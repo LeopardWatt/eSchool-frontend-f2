@@ -9,6 +9,10 @@ Use command in repository `yarn install`
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 Update your Angular CLI `npm update -g @angular/cli`
 
+## Base_url hardcoded at  
+/src/app/services/token-interceptor.service.ts
+and must be with port of backend server :8080
+
 ## ChangeLog
 
 Created angular app with `yarn.lock`
