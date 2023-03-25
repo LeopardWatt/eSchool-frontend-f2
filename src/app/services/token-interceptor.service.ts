@@ -14,7 +14,7 @@ import { throwError } from 'rxjs';
   providedIn: 'root'
 })
 export class TokenInterceptorService implements HttpInterceptor {
-  baseUrl = 'http://10.10.22.43:8080';
+  baseUrl = 'http://eschool.devops.uno:8080';
   allowedUrl = ['/login', '/login/', '/login/request-password', '/login/request-password/', '/login/password', '/login/password/'];
 
   constructor(
